@@ -1,3 +1,4 @@
+/* App-specific styles */
 .App {
   text-align: center;
 }
@@ -15,12 +16,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 20px;
   color: white;
 }
 
@@ -35,4 +31,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Dashboard specific styles */
+.dashboard-container {
+  min-height: 100vh;
+  position: relative;
+}
+
+.chart-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.chart-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+}
+
+.nav-button-active {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dark .glassmorphism {
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
