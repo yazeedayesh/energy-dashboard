@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/energy-dashboard/static/css/main.8388965a.css",
+    "main.js": "/energy-dashboard/static/js/main.1dbe9ced.js",
+    "static/js/453.0d49405d.chunk.js": "/energy-dashboard/static/js/453.0d49405d.chunk.js",
+    "index.html": "/energy-dashboard/index.html",
+    "main.8388965a.css.map": "/energy-dashboard/static/css/main.8388965a.css.map",
+    "main.1dbe9ced.js.map": "/energy-dashboard/static/js/main.1dbe9ced.js.map",
+    "453.0d49405d.chunk.js.map": "/energy-dashboard/static/js/453.0d49405d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8388965a.css",
+    "static/js/main.1dbe9ced.js"
+  ]
+}
